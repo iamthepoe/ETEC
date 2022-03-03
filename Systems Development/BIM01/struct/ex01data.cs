@@ -55,11 +55,11 @@ class MainClass {
 
     if(data1.month == 2){ //bissexto == true
       if(bissexto){
-        if(data1.day>28){
+        if(data1.day>29){
           eValido = false;
         }
       }else{
-        if(data1.day>29){
+        if(data1.day>28){
           eValido = false;
         }
       }
